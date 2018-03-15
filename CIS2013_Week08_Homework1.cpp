@@ -12,12 +12,10 @@ bool sunk = false;
 void printMap(char map[][9]);
 void printView(char view[][9]);
 void writeMapToFile(char map[][9]);
-void writeMapToFile(char map[][9]);
 void writeToMap(char map[][9]);
 void askForAttackVector(char map[][9], char view[][9]);
 void checkIfShip(int, int, char map[][9], char view[][9]);
 
-int prevLocations[81][2];
 
 //Main function
 int main()
